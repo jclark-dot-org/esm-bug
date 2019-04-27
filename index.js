@@ -12,3 +12,5 @@ function EsmBug() {
 EsmBug.prototype.testMe = function() {
   return 42;
 }
+
+export { EsmBug }
