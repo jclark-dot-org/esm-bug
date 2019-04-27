@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "repro for https://github.com/standard-things/esm/issues/788",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "mocha -r esm"
   },
