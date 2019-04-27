@@ -1,5 +1,5 @@
 import { expect } from 'chai'
-import { EsmBug } from '../index.js'
+import EsmBug from '../index.js'
 
 describe('EsmBug', function() {
   it('should work with esm', function() {
