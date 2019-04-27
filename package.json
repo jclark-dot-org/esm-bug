@@ -1,0 +1,16 @@
+{
+  "name": "esm-bug",
+  "version": "1.0.0",
+  "description": "repro for https://github.com/standard-things/esm/issues/788",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r esm"
+  },
+  "author": "jason@jclark.org",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "esm": "^3.2.22",
+    "mocha": "^6.1.4"
+  }
+}
